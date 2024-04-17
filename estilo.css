@@ -55,6 +55,12 @@ body {
     color: #fff;
     border-radius: 10px;
     font-weight: bold;
+    transition: all 1s;
+}
+
+.naveg button:hover {
+    box-shadow: 0 0 10px rgb(31, 255, 31);
+    padding: 15px 30px;
 }
 
 .business {
@@ -88,6 +94,12 @@ body {
     border: 0px;
     color: #fff;
     font-weight: bold;
+    transition: all 1s;
+}
+
+.business .desc-product button:hover {
+    box-shadow: 0 0 10px rgb(31, 255, 31);
+    padding: 15px 30px;
 }
 
 footer {
@@ -116,6 +128,14 @@ footer .desc2 #end {
     font-size: 14px;
 }
 
+@keyframes button {
+    0% {
+        padding: 10px 20px;
+    }
 
+    100% {
+        padding: 15px 30px;
+    }
+}
 
 
