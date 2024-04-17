@@ -127,15 +127,3 @@ footer .desc #mid {
 footer .desc2 #end {
     font-size: 14px;
 }
-
-@keyframes button {
-    0% {
-        padding: 10px 20px;
-    }
-
-    100% {
-        padding: 15px 30px;
-    }
-}
-
-
